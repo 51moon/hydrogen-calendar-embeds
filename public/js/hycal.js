@@ -152,36 +152,36 @@ function hycal_render_calendar(hycalSettings) {
       if (!calendarEl.querySelector(".hycal-error")) {
         calendarEl.insertBefore(errorMsg, calendarEl.firstChild);
       }
-    },
+    }
 
-    // Change view on window resize
-    windowResize: function (view) {
-      // Catch mobile chrome, which changes window size as nav bar appears
-      // so only fire if width has changed.
-      if (
-        window.innerWidth !== width &&
-        views.hasList &&
-        views.wantsToEnforceListviewOnMobile
-      ) {
-        const currentView = calendar.view.type;
-        const isCurrentlyListView = currentView.toLowerCase().includes("list");
+  //   // Change view on window resize
+  //   windowResize: function (view) {
+  //     // Catch mobile chrome, which changes window size as nav bar appears
+  //     // so only fire if width has changed.
+  //     if (
+  //       window.innerWidth !== width &&
+  //       views.hasList &&
+  //       views.wantsToEnforceListviewOnMobile
+  //     ) {
+  //       const currentView = calendar.view.type;
+  //       const isCurrentlyListView = currentView.toLowerCase().includes("list");
 
-        if (hycal_is_mobile(views.mobileBreakpoint)) {
-          // Only switch to list view if not already on one
-          if (!isCurrentlyListView) {
-            calendar.changeView(views.listView);
-          }
-        } else {
-          // Only switch away from list view if we enforced it
-          if (
-            isCurrentlyListView &&
-            !selectedView.toLowerCase().includes("list")
-          ) {
-            calendar.changeView(selectedView);
-          }
-        }
-      }
-    },
+  //       if (hycal_is_mobile(views.mobileBreakpoint)) {
+  //         // Only switch to list view if not already on one
+  //         if (!isCurrentlyListView) {
+  //           calendar.changeView(views.listView);
+  //         }
+  //       } else {
+  //         // Only switch away from list view if we enforced it
+  //         if (
+  //           isCurrentlyListView &&
+  //           !selectedView.toLowerCase().includes("list")
+  //         ) {
+  //           calendar.changeView(selectedView);
+  //         }
+  //       }
+  //     }
+  //   },
   };
 
   // Hide past events if requested
