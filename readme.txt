@@ -53,6 +53,8 @@ Just add block, pop in your ical address(s), and BAM! a modern, responsive, beau
 
 = Shortcode Options (also available via block settings UI) =
 
+(Migrating from Pretty Google Calendar? Just replace `pretty_google_calendar` with `hydrogen_calendar_embeds`, and swap `gcal=id` with `ics=ics_url` in your shortcodes. All other options remain the same.)
+
 Shortcode format is:
 
 `[hydrogen_calendar_embeds ics="ICS_URL, ICS_URL, ..." other_option="value" ... ]`
