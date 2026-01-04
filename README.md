@@ -149,25 +149,25 @@ Example: `fc_args='{"eventSources":%5B"url"%5D}'` will be converted to `{"eventS
 
 1. Hydrogen Calendar Embeds.
 
-   <img src="assets/screenshot-1.png" height="400" />
+   <img src="assets-wp-repo/screenshot-1.png" height="400" />
 &nbsp;
 &nbsp;
 
 2. List View.
 
-   <img src="assets/screenshot-2.png" height="400" />
+   <img src="assets-wp-repo/screenshot-2.png" height="400" />
 &nbsp;
 &nbsp;
 
 3. Optional Event Popover.
 
-   <img src="assets/screenshot-3.png" height="400" />
+   <img src="assets-wp-repo/screenshot-3.png" height="400" />
 &nbsp;
 &nbsp;
 
 4. Block Settings. It's that simple.
 
-   <img src="assets/screenshot-4.png" height="200" />
+   <img src="assets-wp-repo/screenshot-4.png" height="200" />
 &nbsp;
 &nbsp;
 
