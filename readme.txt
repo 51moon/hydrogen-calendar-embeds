@@ -6,7 +6,7 @@ Tags: calendar, ics, embed, google-calendar, events
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -173,8 +173,8 @@ Contact me for requests for additional functionality, and let's see what we can 
 4. Block Editor - It's that simple
 
 == Changelog ==
-= 1.0.1 =
+= 3.0.0 =
 * Initial release.
 
-= 0.0.0 =
-* This plugin is an improved fork of the Pretty Google Calendar, which has been battle-tested for years. All Google Calendar API nonsense has been removed, and replaced with ICS feed fetching/parsing, making this plugin much more versatile!
+= 2.2.0 =
+* This plugin is an improved fork of the Pretty Google Calendar v2.2.0, which has been battle-tested for years. All Google Calendar API nonsense has been removed, and replaced with ICS feed fetching/parsing, making this plugin much more versatile!

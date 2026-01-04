@@ -213,13 +213,13 @@ This plugin is licensed under the GPLv2 or later. See [LICENSE](http://www.gnu.o
 
 ## Changelog
 
-### 1.0.1
+### 3.0.0
 
-- Initial release
+- Initial release of Hydrogen Calendar Embeds, an improved fork of Pretty Google Calendar.
 
-### 0.0.0
+### 2.2.0
 
-- This plugin is an improved fork of the Pretty Google Calendar, which has been battle-tested for years. All Google Calendar API nonsense has been removed, and replaced with ICS feed fetching/parsing, making this plugin much more versatile!
+- This plugin is an improved fork of the Pretty Google Calendar v2.2.0, which has been battle-tested for years. All Google Calendar API nonsense has been removed, and replaced with ICS feed fetching/parsing, making this plugin much more versatile!
 
 ## Support
 
