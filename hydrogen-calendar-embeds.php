@@ -3,7 +3,7 @@
 Plugin Name: Hydrogen Calendar Embeds
 Plugin URI: https://github.com/lbell/hydrogen-calendar-embeds
 Description: Embed any existing iCalendar (ICS) source into your WordPress site using Gutenberg blocks or shortcodes.
-Version: 1.0.0
+Version: 1.0.1
 Author: LBell
 Author URI: https://lorenbell.com
 Text Domain: hydrogen-calendar-embeds
@@ -36,7 +36,7 @@ if (! defined('ABSPATH')) {
   exit;
 }
 
-define('HYCAL_VER', '1.0.0');
+define('HYCAL_VER', '1.0.1');
 define('HYCAL_DIR', plugin_dir_path(__FILE__)); // Trailing slash
 define('HYCAL_URL', plugin_dir_url(__FILE__));
 

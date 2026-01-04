@@ -11,22 +11,24 @@ This completely free, extremely light-weight plugin with explosive potential emb
 
 Nothing is hidden behind a "pro" upgrade. All features are free.
 
-Just add block, pop in your ical address(s), and BAM! a modern, responsive, beautiful calendar.
-
-- Need two calendars in one? We got you. 
-- Need multiple different calendars on the page? Easy peasy. 
-- Prefer another color or style? We've got CSS classes for days.
-- Need different functionality? It's developer friendly, completely extendable, and customizable.
-
-**Highlights:**
-
-- Manage events using any external calendar of your choice
-- Works with any public ICS/iCal feed:
+Works with any public ICS/iCal feed:
   - Google Calendar
   - iCloud
   - Outlook
   - Airbnb
-  - Pretty much anything that can output an ICS feed
+  - **Pretty much anything that can output an ICS feed**
+
+Just add the new Hydrogen Calendar Embeds block, copy in your ical address(s), and BAM! a modern, responsive, beautiful calendar.
+
+- Need two calendars in one? We got you. 
+- Need multiple different calendars on the page? Easy peasy. 
+- Prefer another color or style? We've got CSS classes for days.
+- Need different functionality? It's developer friendly, completely extendable, and infinitely customizable.
+
+**Highlights:**
+
+- Manage events using any external calendar of your choice
+- Works with any public ICS/iCal feed
 - Combine multiple ICS feeds into one calendar
 - Embed multiple calendars on one page
 - Lots of view options (Grid, Month List, Day List, Year List)
@@ -211,7 +213,7 @@ This plugin is licensed under the GPLv2 or later. See [LICENSE](http://www.gnu.o
 
 ## Changelog
 
-### 1.0.0
+### 1.0.1
 
 - Initial release
 

@@ -6,7 +6,7 @@ Tags: calendar, ics, embed, google-calendar, events
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,22 +18,23 @@ This completely free, extremely light-weight plugin with explosive potential emb
 
 Nothing is hidden behind a "pro" upgrade. All features are free.
 
-Just add block, pop in your ical address(s), and BAM! a modern, responsive, beautiful calendar.
-
-- Need two calendars in one? We got you. 
-- Need multiple different calendars on the page? Easy peasy. 
-- Prefer another color or style? We've got CSS classes for days.
-- Need different functionality? It's developer friendly, completely extendable, and customizable.
-
-**Highlights:**
-
-- Manage events using any external calendar of your choice
-- Works with any public ICS/iCal feed:
+Works with any public ICS/iCal feed:
   - Google Calendar
   - iCloud
   - Outlook
   - Airbnb
-  - Pretty much anything that can output an ICS feed
+  - **Pretty much anything that can output an ICS feed**
+
+Just add the new Hydrogen Calendar Embeds block, copy in your ical address(s), and BAM! a modern, responsive, beautiful calendar.
+
+- Need two calendars in one? We got you. 
+- Need multiple different calendars on the page? Easy peasy. 
+- Prefer another color or style? We've got CSS classes for days.
+- Need different functionality? It's developer friendly, completely extendable, and infinitely customizable.
+
+**Highlights:**
+
+- Manage events using any external calendar of your choice
 - Combine multiple ICS feeds into one calendar
 - Embed multiple calendars on one page
 - Lots of view options (Grid, Month List, Day List, Year List)
@@ -53,7 +54,7 @@ Just add block, pop in your ical address(s), and BAM! a modern, responsive, beau
 
 = Shortcode Options (also available via block settings UI) =
 
-(Migrating from Pretty Google Calendar? Just replace `pretty_google_calendar` with `hydrogen_calendar_embeds`, and swap `gcal=id` with `ics=ics_url` in your shortcodes. All other options remain the same.)
+(**Migrating from Pretty Google Calendar?** Just replace `pretty_google_calendar` with `hydrogen_calendar_embeds`, and swap `gcal=id` with `ics=ics_url` in your shortcodes. All other options remain the same.)
 
 Shortcode format is:
 
@@ -63,12 +64,6 @@ Where the options are:
 
 `ics="https://example.com/calendar.ics"`
 Public ICS/iCal feed URL(s). Works with any standard ICS feed: Google Calendar, iCloud, Outlook, Nextcloud, Teamup, corporate Exchange servers, and more. Multiple ICS feeds can be comma-separated. The plugin fetches the ICS data server-side to avoid CORS issues.
-
-Examples:
-- Google Calendar: `[hydrogen_calendar_embeds ics="https://calendar.google.com/calendar/ical/YOUR_ID/public/basic.ics"]`
-- iCloud: `[hydrogen_calendar_embeds ics="https://p123-caldav.icloud.com/published/2/YOUR_ID"]`
-- Outlook: `[hydrogen_calendar_embeds ics="https://outlook.live.com/owa/calendar/YOUR_ID/calendar.ics"]`
-- Any ICS: `[hydrogen_calendar_embeds ics="https://example.com/events.ics"]`
 
 `cal_ids="identifier,identifier"`
 Optional custom CSS identifiers for each calendar. Allows using meaningful names instead of numeric indexes for styling. Example: `cal_ids="soccer,baseball"` generates classes like `.hycal-calendar-soccer` and `.hycal-calendar-baseball`. Identifiers should be lowercase alphanumeric with hyphens.
@@ -178,7 +173,7 @@ Contact me for requests for additional functionality, and let's see what we can 
 4. Block Editor - It's that simple
 
 == Changelog ==
-= 1.0.0 =
+= 1.0.1 =
 * Initial release.
 
 = 0.0.0 =

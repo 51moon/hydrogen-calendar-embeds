@@ -1,0 +1,17 @@
+# Development source files (git tracks these, SVN doesn't need them)
+
+blocks/calendar/src/
+
+# Build tooling (in git for development, not needed in production)
+
+package.json
+package-lock.json
+
+# Deployment script (for your use, not end users)
+
+deploy.sh
+
+# GitHub-specific files (in git, not needed on WordPress.org)
+
+.github/
+README.md
