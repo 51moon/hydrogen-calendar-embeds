@@ -1,6 +1,7 @@
 # Development source files (git tracks these, SVN doesn't need them)
 
 blocks/calendar/src/
+docs/
 
 # Build tooling (in git for development, not needed in production)
 
