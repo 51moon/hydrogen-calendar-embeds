@@ -40,9 +40,10 @@ function hycal_resolve_cals(settings) {
       identifiers.push(identifier);
 
       // Build proxy URL - FullCalendar's iCalendar plugin will fetch from our proxy
-      const proxyUrl = `${settings["rest_url"]}?url=${encodeURIComponent(
-        icsCals[j]
-      )}`;
+      // Use URL API to properly append query params (handles both pretty and plain permalinks)
+      const proxyUrlObj = new URL(settings["rest_url"]);
+      proxyUrlObj.searchParams.set("url", icsCals[j]);
+      const proxyUrl = proxyUrlObj.toString();
 
       // Use FullCalendar's native iCalendar format
       calArgs.push({
