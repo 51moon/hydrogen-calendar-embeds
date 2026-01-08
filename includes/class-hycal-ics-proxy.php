@@ -367,7 +367,7 @@ class HYCAL_ICS_Proxy {
         'Content-Type'               => 'text/calendar; charset=utf-8',
         'X-HYCAL-Cached'             => ($from_cache ? 'true' : 'false'),
         'Access-Control-Allow-Origin' => esc_url_raw($allowed_origin),
-        'Cache-Control'              => 'max-age=900',
+        'Cache-Control'              => 'max-age=' . self::CACHE_DURATION,
       )
     );
 

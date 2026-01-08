@@ -6,7 +6,7 @@ Tags: calendar, ics, embed, google-calendar, events
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 3.0.1
+Stable tag: 3.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -173,6 +173,9 @@ Contact me for requests for additional functionality, and let's see what we can 
 4. Block Editor - It's that simple
 
 == Changelog ==
+= 3.0.2 =
+* Fixed ICS feed cache
+
 = 3.0.1 =
 * Fixed issue with URL encoding in ICS feed proxy URL.
 
