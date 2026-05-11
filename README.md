@@ -14,6 +14,7 @@ Nothing is hidden behind a "pro" upgrade. All features are free.
 Works with any public ICS/iCal feed:
   - Google Calendar
   - iCloud
+  - Nextcloud Calendar
   - Outlook
   - Airbnb
   - **Pretty much anything that can output an ICS feed**
@@ -61,6 +62,7 @@ Public ICS/iCal feed URL(s). Works with any standard ICS feed: Google Calendar, 
 
 - Google Calendar: `[hydrogen_calendar_embeds ics="https://calendar.google.com/calendar/ical/YOUR_ID/public/basic.ics"]`
 - iCloud: `[hydrogen_calendar_embeds ics="https://p123-caldav.icloud.com/published/2/YOUR_ID"]`
+- Nextcloud Calendar: `[hydrogen_calendar_embeds ics="https://example.com/remote.php/dav/public-calendars/YOUR_ID?export"]`
 - Outlook: `[hydrogen_calendar_embeds ics="https://outlook.live.com/owa/calendar/YOUR_ID/calendar.ics"]`
 - Any ICS: `[hydrogen_calendar_embeds ics="https://example.com/events.ics"]`
 
